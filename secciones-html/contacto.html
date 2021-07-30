@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame! NY</title>
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="style icon" href="../img/logo-NY.svg">
+    <link rel="stylesheet" href="../estilos/mobile.css">
+    <link rel="stylesheet" href="../secciones/contacto.css">
+    <script defer src="../js/main.js"></script>
+</head>
+
+<body>
+    <header class="header-ct">
+        <nav class="content-nav contacto__formulario">
+            <a href="../index.html"><img src="../img/logo-NY.svg" alt="Icono de Nueva York"></a>
+            <button class="abrir-menu" aria-label="Abrir menu">
+                <img src="../img/mobile-menu.svg" alt="abrir menu">
+            </button>
+            <ul class="menu">
+                <button class="cerrar-menu" aria-label="Cerrar menu">
+                    <img src="../img/close.svg" alt="cerrar menu">
+                </button>
+                <li><a class="link" href="../index.html">Inicio</a></li>
+                <li><a class="link" href="secciones-html/actividades.html">Actividades</a></li>
+                <li><a class="link" href="../secciones-html/intereses.html">Podria interesarte</a></li>
+                <li><a class="link" href="quien-soy.html">Quien soy</a></li>
+                <li><a class="link-inicio" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flex__contenedor">
+        <form name="contact" method="POST" data-netlify="true" class="form">
+            <div class="form__secciones">
+                <input type="text" required class="form__input" placeholder="Nombre">
+            </div>
+            <div class="form__secciones">
+                <input type="text" class="form__input" placeholder="Apellido">
+            </div>
+            <div class="form__secciones">
+                <input type="tel" required class="form__input" placeholder="Numero de telefono">
+            </div>
+            <div class="form__secciones">
+                <input type="email" required class="form__input" placeholder="Correo electronico">
+            </div>
+            <div class="form__secciones">
+                <select name="intereses" class="form__input">
+    
+                    <option class="opciones">Me interesaria ver mas actividades</option>
+                    
+                    <option class="opciones">Agregaria mas contenido</option>
+                    
+                    <option selected class="opciones">La reharia toda de nuevo :v</option>
+    
+                    <option class="opciones">Me gustaria que fuera mas intuitiva</option>
+    
+                    <option class="opciones">Me gustaria poder reservar desde esta pagina</option>
+                    
+                    </select>
+            </div>
+            <div class="form__secciones">
+                <textarea class="form__input" required placeholder="Escribanos algo..."></textarea>
+            </div>
+            <div class="form__secciones">
+                <input type="file" class="form__input">
+            </div>
+
+
+            <div class="form__secciones radio">
+                <h3>Diganos su sexo</h3>
+                <input type="radio" id="hombre" name="hombre">
+                <label for="hombre">Masculino</label>
+                <input type="radio" id="femenino" name="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="none" name="none">
+                <label for="none">Prefiero no decirlo</label>
+            </div>
+
+
+            <div class="form__secciones">
+                <input type="submit" class="form__input">
+            </div>
+        </form>
+        <div class="form__imagen">
+            <div class="img__contenedor">
+                <div>
+                    <img src="../img/mail-logo.jpg" alt="logo de email">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="contacto__formul">
+        <div class="contenedor-footer">
+            <div class="icono-contenedor">
+                <a href="../index.html"><img class="icono-manzana" src="../img/logo-NY.svg" alt="Icono de Nueva York"></a>
+            </div>
+            <div class="redes-contenedor">
+                <a href="index.html"><img class="icono-footer" src="../img/linkedin.svg" alt="Icono de linkedin"></a>
+                <a href="index.html"><img class="icono-footer" src="../img/instagram.svg" alt="Icono de instagram"></a>
+                <a href="index.html"><img class="icono-footer" src="../img/facebook.svg" alt="Icono de facebook"></a>
+            </div>
+        </div>
+        <div class="contenedor-informacion-footer">
+            <div class="informacion-footer">
+                <p>Escuela Da Vinci Comision B - Proyecto final de desarrollo.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>

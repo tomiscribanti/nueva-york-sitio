@@ -1,0 +1,94 @@
+.contacto__formulario {
+    position: unset;
+}
+.flex__contenedor {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    background-color: #444;
+    margin: 50px 50px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 120px;
+}
+.radio {
+    padding: 10px;
+}
+.radio h3 {
+    color: var(--inverso-color);
+    padding-bottom: 10px;
+}
+.radio label {
+    color: var(--inverso-color);
+    margin-right: 15px;
+}
+.opciones {
+    color: var(--texto-color);
+}
+.contacto__formul {
+    margin-top: 54px;
+}
+.form {
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+.form__input {
+    width: 60%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid var(--principal-color);
+    background: transparent;
+    color: var(--inverso-color);
+}
+.form__input:focus {
+    background: #333;
+    outline: none;
+    border-bottom: 3px solid var(--oscuro-principal);
+    background: linear-gradient(to bottom, transparent, #333);
+}
+.form__imagen {
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 330px;
+    order: 2;
+}
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+.form__imagen div {
+    padding: 10px;
+}
+.img__contenedor div {
+    background-color: var(--inverso-color);
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+}
+.form__imagen img {
+    width: 100%;
+    margin: auto;
+}
+.form input[type="submit"] {
+    background-color: var(--principal-color);
+    border-bottom: none;
+    padding: 12px;
+}
+.form input[type="submit"]:hover {
+    background-color: var(--oscuro-principal);
+    cursor: pointer;
+}
+.form input[type="submit"]:focus {
+    background: #094;
+}
+.form input[type="submit"]:active {
+    background: linear-gradient(to bottom, #072, #050);
+}
